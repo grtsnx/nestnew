@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /packages/cli/templates/prisma-postgres
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /packages/cli/templates/no-database
+    schedule:
+      interval: weekly
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly

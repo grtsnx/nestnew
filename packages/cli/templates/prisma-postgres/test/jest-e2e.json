@@ -1,0 +1,19 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": "..",
+  "testEnvironment": "node",
+  "testTimeout": 30000,
+  "testRegex": "test/e2e/.*\\.e2e-spec\\.ts$",
+  "setupFiles": ["dotenv/config", "<rootDir>/test/e2e/setup-env.ts"],
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "^src/(.*)$": "<rootDir>/src/$1",
+    "^(\\.{1,2}/.*)\\.js$": "$1",
+    "^files-sdk$": "<rootDir>/test/mocks/files-sdk.ts",
+    "^files-sdk/fs$": "<rootDir>/test/mocks/files-sdk-fs.ts",
+    "^files-sdk/s3$": "<rootDir>/test/mocks/files-sdk-s3.ts",
+    "^files-sdk/r2$": "<rootDir>/test/mocks/files-sdk-r2.ts"
+  }
+}

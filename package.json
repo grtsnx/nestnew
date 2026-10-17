@@ -1,0 +1,9 @@
+{
+  "name": "create-nest-boilerplate-monorepo",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "test": "bun test packages/cli/test",
+    "check": "bun run test && bun run --cwd packages/cli check"
+  }
+}
