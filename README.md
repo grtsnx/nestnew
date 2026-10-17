@@ -1,9 +1,9 @@
-# create-nest-boilerplate
+# nestnew
 
 Create a production-ready NestJS API with an interactive command:
 
 ```bash
-bunx create-nest-boilerplate@latest my-api
+bunx nestnew@latest my-api
 ```
 
 Choose either Prisma with PostgreSQL or a database-free template. The generator
@@ -13,11 +13,11 @@ and local, Cloudflare R2, or S3-compatible file storage.
 ## Direct commands
 
 ```bash
-bunx create-nest-boilerplate@latest my-api --prisma --db=docker
-bunx create-nest-boilerplate@latest my-api --no-database --redis=skip
+bunx nestnew@latest my-api --prisma --db=docker
+bunx nestnew@latest my-api --no-database --redis=skip
 ```
 
-Run `bunx create-nest-boilerplate@latest --help` for all options.
+Run `bunx nestnew@latest --help` for all options.
 
 ## Development
 

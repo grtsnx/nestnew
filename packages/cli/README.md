@@ -1,7 +1,7 @@
-# create-nest-boilerplate
+# nestnew
 
 ```bash
-bunx create-nest-boilerplate@latest my-api
+bunx nestnew@latest my-api
 ```
 
 See the [GitHub repository](https://github.com/grtsnx/create-nest-boilerplate)

@@ -40,7 +40,7 @@ function printHelp() {
   console.log(`Create a production-ready NestJS API.
 
 Usage:
-  bunx create-nest-boilerplate@latest [project-name] [options]
+  bunx nestnew@latest [project-name] [options]
 
 Options:
   --prisma              Prisma + PostgreSQL template
@@ -53,9 +53,9 @@ Options:
   -h, --help            Show this help
 
 Examples:
-  bunx create-nest-boilerplate@latest my-api
-  bunx create-nest-boilerplate@latest my-api --prisma --db=docker
-  bunx create-nest-boilerplate@latest my-api --no-database --redis=skip
+  bunx nestnew@latest my-api
+  bunx nestnew@latest my-api --prisma --db=docker
+  bunx nestnew@latest my-api --no-database --redis=skip
 `);
 }
 
