@@ -20,7 +20,7 @@
   "homepage": "https://github.com/grtsnx/create-nest-boilerplate#readme",
   "type": "module",
   "bin": {
-    "create-nest-boilerplate": "./src/cli.js"
+    "create-nest-boilerplate": "src/cli.js"
   },
   "files": [
     "src",
