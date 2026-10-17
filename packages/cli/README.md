@@ -65,10 +65,10 @@ cd my-api
 bun run start:dev
 ```
 
-Read the [complete guide](https://github.com/grtsnx/create-nest-boilerplate#readme)
+Read the [complete guide](https://github.com/grtsnx/nestnew#readme)
 for provider variables, deployment notes, troubleshooting, and contribution
 instructions.
 
 ## License
 
-[MIT](https://github.com/grtsnx/create-nest-boilerplate/blob/main/LICENSE)
+[MIT](https://github.com/grtsnx/nestnew/blob/main/LICENSE)

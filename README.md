@@ -1,7 +1,7 @@
 # nestnew
 
 [![npm version](https://img.shields.io/npm/v/nestnew.svg)](https://www.npmjs.com/package/nestnew)
-[![CI](https://github.com/grtsnx/create-nest-boilerplate/actions/workflows/ci.yml/badge.svg)](https://github.com/grtsnx/create-nest-boilerplate/actions/workflows/ci.yml)
+[![CI](https://github.com/grtsnx/nestnew/actions/workflows/ci.yml/badge.svg)](https://github.com/grtsnx/nestnew/actions/workflows/ci.yml)
 [![license](https://img.shields.io/npm/l/nestnew.svg)](LICENSE)
 
 Create a production-ready NestJS API with one command. Choose Prisma and
@@ -277,8 +277,8 @@ bun install
 ## Contributing
 
 ```bash
-git clone https://github.com/grtsnx/create-nest-boilerplate.git
-cd create-nest-boilerplate
+git clone https://github.com/grtsnx/nestnew.git
+cd nestnew
 bun install
 bun run check
 ```

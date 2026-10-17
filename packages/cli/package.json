@@ -1,6 +1,6 @@
 {
   "name": "nestnew",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create a production-ready NestJS API with optional Prisma, PostgreSQL, Redis, email, and file storage.",
   "keywords": [
     "nestjs",
@@ -12,12 +12,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grtsnx/create-nest-boilerplate.git"
+    "url": "git+https://github.com/grtsnx/nestnew.git"
   },
   "bugs": {
-    "url": "https://github.com/grtsnx/create-nest-boilerplate/issues"
+    "url": "https://github.com/grtsnx/nestnew/issues"
   },
-  "homepage": "https://github.com/grtsnx/create-nest-boilerplate#readme",
+  "homepage": "https://github.com/grtsnx/nestnew#readme",
   "type": "module",
   "bin": {
     "nestnew": "src/cli.js"
