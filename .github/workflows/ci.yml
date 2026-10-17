@@ -10,7 +10,7 @@ jobs:
   cli:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
       - uses: oven-sh/setup-bun@v2.2.0
         with:
           bun-version: latest
@@ -29,7 +29,7 @@ jobs:
       run:
         working-directory: packages/cli/templates/${{ matrix.template }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
       - uses: actions/setup-node@v5
         with:
           node-version: 24
