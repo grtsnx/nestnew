@@ -1,6 +1,6 @@
 {
   "name": "nestnew",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Create a production-ready NestJS API with optional Prisma, PostgreSQL, Redis, email, and file storage.",
   "keywords": [
     "nestjs",
